@@ -14,6 +14,8 @@
 		1816C0962872B49F003F597B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1816C0952872B49F003F597B /* Assets.xcassets */; };
 		1816C0992872B49F003F597B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1816C0972872B49F003F597B /* LaunchScreen.storyboard */; };
 		1816C0C92877B5E3003F597B /* GithubTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816C0C82877B5E3003F597B /* GithubTestViewController.swift */; };
+		1816C0CF28784054003F597B /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816C0CE28784054003F597B /* AlarmViewController.swift */; };
+		1816C0D1287847EA003F597B /* MyBaeminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816C0D0287847EA003F597B /* MyBaeminViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		1816C0982872B49F003F597B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1816C09A2872B49F003F597B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1816C0C82877B5E3003F597B /* GithubTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubTestViewController.swift; sourceTree = "<group>"; };
+		1816C0CE28784054003F597B /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		1816C0D0287847EA003F597B /* MyBaeminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBaeminViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				1816C0902872B49E003F597B /* ViewController.swift */,
 				1816C0C82877B5E3003F597B /* GithubTestViewController.swift */,
 				1816C0922872B49E003F597B /* Main.storyboard */,
+				1816C0D0287847EA003F597B /* MyBaeminViewController.swift */,
+				1816C0CE28784054003F597B /* AlarmViewController.swift */,
 				1816C0952872B49F003F597B /* Assets.xcassets */,
 				1816C0972872B49F003F597B /* LaunchScreen.storyboard */,
 				1816C09A2872B49F003F597B /* Info.plist */,
@@ -141,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1816C0CF28784054003F597B /* AlarmViewController.swift in Sources */,
 				1816C0912872B49E003F597B /* ViewController.swift in Sources */,
+				1816C0D1287847EA003F597B /* MyBaeminViewController.swift in Sources */,
 				1816C08D2872B49E003F597B /* AppDelegate.swift in Sources */,
 				1816C08F2872B49E003F597B /* SceneDelegate.swift in Sources */,
 				1816C0C92877B5E3003F597B /* GithubTestViewController.swift in Sources */,
