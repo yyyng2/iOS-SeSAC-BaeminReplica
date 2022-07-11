@@ -47,7 +47,7 @@
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button" image="baeminbaedal"/>
                                         <connections>
-                                            <segue destination="gp7-uG-gkQ" kind="show" id="KQ9-4K-x0B"/>
+                                            <segue destination="yQt-l6-BjX" kind="show" id="zfC-UT-fXj"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UR3-Oz-FNe">
@@ -55,7 +55,7 @@
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button" image="baemin1"/>
                                         <connections>
-                                            <segue destination="gp7-uG-gkQ" kind="show" id="pE9-dY-PJO"/>
+                                            <segue destination="yQt-l6-BjX" kind="show" id="PqD-Dq-w6E"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HjR-Gn-Mjs">
@@ -63,7 +63,7 @@
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button" image="pojang"/>
                                         <connections>
-                                            <segue destination="gp7-uG-gkQ" kind="show" id="SGg-ai-vSX"/>
+                                            <segue destination="yQt-l6-BjX" kind="show" id="hNh-be-W4v"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLx-Jb-FuT">
@@ -71,7 +71,7 @@
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button" image="menuothers"/>
                                         <connections>
-                                            <segue destination="gp7-uG-gkQ" kind="show" id="4In-wX-wVq"/>
+                                            <segue destination="yQt-l6-BjX" kind="show" id="58O-lF-ECk"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -452,7 +452,7 @@
             </objects>
             <point key="canvasLocation" x="19" y="-737"/>
         </scene>
-        <!--View Controller-->
+        <!--메뉴-->
         <scene sceneID="12n-P2-QPc">
             <objects>
                 <viewController id="gp7-uG-gkQ" sceneMemberID="viewController">
@@ -460,32 +460,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="배달의 민족 레플리카" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QSd-Eg-ROp">
-                                <rect key="frame" x="0.0" y="88" width="414" height="10"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner02" translatesAutoresizingMaskIntoConstraints="NO" id="2Y3-jz-gD1">
-                                <rect key="frame" x="87" y="105.5" width="240" height="128"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="0Tj-ZC-Fko"/>
-                                    <constraint firstAttribute="width" constant="240" id="h8l-0K-8Xk"/>
-                                </constraints>
-                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="ntW-zV-kfl">
-                                <rect key="frame" x="21" y="253.5" width="372" height="120.5"/>
+                                <rect key="frame" x="21" y="205" width="372" height="122.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2f1-3I-SmT">
-                                        <rect key="frame" x="0.0" y="0.0" width="63" height="120.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="63" height="122.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7A-Sy-6sc">
-                                                <rect key="frame" x="0.0" y="0.0" width="63" height="92"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="63" height="94"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="shop"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="마켓" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJn-Gw-kNn">
-                                                <rect key="frame" x="17" y="100" width="29.5" height="20.5"/>
+                                                <rect key="frame" x="17" y="102" width="29.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -496,15 +483,15 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="mhN-iu-Vl0">
-                                        <rect key="frame" x="75" y="0.0" width="112" height="120.5"/>
+                                        <rect key="frame" x="75" y="0.0" width="112" height="122.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QGJ-ZU-AyR">
-                                                <rect key="frame" x="0.0" y="0.0" width="112" height="92"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="112" height="94"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="mono_baedal01"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="랍스터" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KS8-wd-HDQ">
-                                                <rect key="frame" x="34" y="100" width="44.5" height="20.5"/>
+                                                <rect key="frame" x="34" y="102" width="44.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -515,15 +502,15 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="pTt-jt-W7a">
-                                        <rect key="frame" x="199" y="0.0" width="69" height="120.5"/>
+                                        <rect key="frame" x="199" y="0.0" width="69" height="122.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1WG-Eb-8z6">
-                                                <rect key="frame" x="0.0" y="0.0" width="69" height="92"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1WG-Eb-8z6">
+                                                <rect key="frame" x="0.0" y="0.0" width="69" height="94"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="mono_baedal02"/>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2인분" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLz-sF-hvR">
-                                                <rect key="frame" x="15" y="100" width="39.5" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2인분" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLz-sF-hvR">
+                                                <rect key="frame" x="15" y="102" width="39.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -534,15 +521,15 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="LkF-rR-AN0">
-                                        <rect key="frame" x="280" y="0.0" width="92" height="120.5"/>
+                                        <rect key="frame" x="280" y="0.0" width="92" height="122.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N21-Ko-Gsl">
-                                                <rect key="frame" x="0.0" y="0.0" width="92" height="92"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="92" height="94"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="mono_baedal03"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="몰라용" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b7d-em-vQn">
-                                                <rect key="frame" x="24" y="100" width="44.5" height="20.5"/>
+                                                <rect key="frame" x="24" y="102" width="44.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -555,18 +542,18 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Q7C-CP-8YQ">
-                                <rect key="frame" x="20" y="394" width="374" height="118"/>
+                                <rect key="frame" x="20" y="347.5" width="374" height="118.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="WED-g6-icp">
-                                        <rect key="frame" x="0.0" y="0.0" width="82" height="118"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="82" height="118.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e7b-wv-py4">
-                                                <rect key="frame" x="0.0" y="0.0" width="82" height="89.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="82" height="90"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="mono_baedal12"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="한식" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GgZ-0P-6YG">
-                                                <rect key="frame" x="26.5" y="97.5" width="29.5" height="20.5"/>
+                                                <rect key="frame" x="26.5" y="98" width="29.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -577,15 +564,15 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="fFT-CL-FJy">
-                                        <rect key="frame" x="94" y="0.0" width="80" height="118"/>
+                                        <rect key="frame" x="94" y="0.0" width="80" height="118.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mUm-BD-7eg">
-                                                <rect key="frame" x="0.0" y="0.0" width="80" height="89.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="80" height="90"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="mono_baedal07"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="일식" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="brY-6e-aTh">
-                                                <rect key="frame" x="25.5" y="97.5" width="29.5" height="20.5"/>
+                                                <rect key="frame" x="25.5" y="98" width="29.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -596,15 +583,15 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="QcP-jU-yen">
-                                        <rect key="frame" x="186" y="0.0" width="72" height="118"/>
+                                        <rect key="frame" x="186" y="0.0" width="72" height="118.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVJ-r9-5A0">
-                                                <rect key="frame" x="0.0" y="0.0" width="72" height="89.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="72" height="90"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="mono_baedal11"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="중식" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20p-Bo-ucn">
-                                                <rect key="frame" x="21.5" y="97.5" width="29.5" height="20.5"/>
+                                                <rect key="frame" x="21.5" y="98" width="29.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -615,15 +602,15 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="rU5-TI-o38">
-                                        <rect key="frame" x="270" y="0.0" width="104" height="118"/>
+                                        <rect key="frame" x="270" y="0.0" width="104" height="118.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LKA-qn-ZAu">
-                                                <rect key="frame" x="0.0" y="0.0" width="104" height="89.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="104" height="90"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="mono_baedal08"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="치킨" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYH-3G-3nP">
-                                                <rect key="frame" x="37.5" y="97.5" width="29.5" height="20.5"/>
+                                                <rect key="frame" x="37.5" y="98" width="29.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -641,18 +628,18 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="bjz-s9-EBR">
-                                <rect key="frame" x="20" y="532" width="374" height="112"/>
+                                <rect key="frame" x="20" y="486" width="374" height="109"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="toB-yw-7K0">
-                                        <rect key="frame" x="0.0" y="0.0" width="80.5" height="112"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="82.5" height="109"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jx7-YB-jW4">
-                                                <rect key="frame" x="3.5" y="0.0" width="73" height="83.5"/>
+                                                <rect key="frame" x="4.5" y="0.0" width="73" height="80.5"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="mono_baedal10"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="아시안" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u1L-NR-nbR">
-                                                <rect key="frame" x="18" y="91.5" width="44.5" height="20.5"/>
+                                                <rect key="frame" x="19" y="88.5" width="44.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -663,15 +650,15 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="csn-tp-qhs">
-                                        <rect key="frame" x="92.5" y="0.0" width="81.5" height="112"/>
+                                        <rect key="frame" x="94.5" y="0.0" width="79.5" height="109"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C81-hj-0on">
-                                                <rect key="frame" x="0.0" y="0.0" width="81.5" height="83.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="79.5" height="80.5"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="mono_baedal09"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="피자" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nYv-gp-r7C">
-                                                <rect key="frame" x="26" y="91.5" width="29.5" height="20.5"/>
+                                                <rect key="frame" x="25" y="88.5" width="29.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -683,15 +670,15 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="yp8-kV-gSU">
-                                        <rect key="frame" x="186" y="0.0" width="94" height="112"/>
+                                        <rect key="frame" x="186" y="0.0" width="94" height="109"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dq5-9R-TH5">
-                                                <rect key="frame" x="0.0" y="0.0" width="94" height="83.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="94" height="80.5"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="mono_baedal16"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="햄버거" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lca-01-MMV">
-                                                <rect key="frame" x="25" y="91.5" width="44.5" height="20.5"/>
+                                                <rect key="frame" x="25" y="88.5" width="44.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -702,15 +689,15 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="umv-b1-5X7">
-                                        <rect key="frame" x="292" y="0.0" width="82" height="112"/>
+                                        <rect key="frame" x="292" y="0.0" width="82" height="109"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1uF-At-oS4">
-                                                <rect key="frame" x="0.0" y="0.0" width="82" height="83.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="82" height="80.5"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="mono_baedal04"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="한식" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sfq-RN-IJ8">
-                                                <rect key="frame" x="26.5" y="91.5" width="29.5" height="20.5"/>
+                                                <rect key="frame" x="26.5" y="88.5" width="29.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -728,7 +715,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="mFH-a7-Rap">
-                                <rect key="frame" x="10" y="664" width="414" height="138"/>
+                                <rect key="frame" x="10" y="615" width="414" height="138"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="X0t-1d-aKk">
                                         <rect key="frame" x="0.0" y="0.0" width="96.5" height="138"/>
@@ -819,27 +806,74 @@
                             <constraint firstItem="bjz-s9-EBR" firstAttribute="top" secondItem="Q7C-CP-8YQ" secondAttribute="bottom" constant="20" id="7tJ-Te-xWz"/>
                             <constraint firstItem="mFH-a7-Rap" firstAttribute="leading" secondItem="rSa-Bi-vfx" secondAttribute="leading" constant="10" id="A1n-Ed-zC6"/>
                             <constraint firstItem="mFH-a7-Rap" firstAttribute="top" secondItem="bjz-s9-EBR" secondAttribute="bottom" constant="20" id="Da4-mb-ich"/>
-                            <constraint firstItem="QSd-Eg-ROp" firstAttribute="centerX" secondItem="rSa-Bi-vfx" secondAttribute="centerX" id="FoA-EG-Kju"/>
-                            <constraint firstItem="QSd-Eg-ROp" firstAttribute="top" secondItem="rSa-Bi-vfx" secondAttribute="top" id="Gfz-h4-4yj"/>
-                            <constraint firstItem="ntW-zV-kfl" firstAttribute="top" secondItem="2Y3-jz-gD1" secondAttribute="bottom" constant="20" id="KvK-Y9-TTc"/>
-                            <constraint firstItem="QSd-Eg-ROp" firstAttribute="leading" secondItem="rSa-Bi-vfx" secondAttribute="leading" id="P11-9A-gU8"/>
                             <constraint firstItem="mFH-a7-Rap" firstAttribute="trailing" secondItem="rSa-Bi-vfx" secondAttribute="trailing" constant="10" id="UvW-dd-MbT"/>
                             <constraint firstItem="bjz-s9-EBR" firstAttribute="leading" secondItem="rSa-Bi-vfx" secondAttribute="leading" constant="20" id="Y6X-bn-kot"/>
                             <constraint firstItem="rSa-Bi-vfx" firstAttribute="trailing" secondItem="Q7C-CP-8YQ" secondAttribute="trailing" constant="20" id="Zma-Uu-THd"/>
                             <constraint firstItem="Q7C-CP-8YQ" firstAttribute="top" secondItem="ntW-zV-kfl" secondAttribute="bottom" constant="20" id="gtU-BI-wSV"/>
                             <constraint firstItem="rSa-Bi-vfx" firstAttribute="trailing" secondItem="bjz-s9-EBR" secondAttribute="trailing" constant="20" id="h4b-sL-A4E"/>
-                            <constraint firstItem="rSa-Bi-vfx" firstAttribute="trailing" secondItem="QSd-Eg-ROp" secondAttribute="trailing" id="lG8-nY-V2t"/>
-                            <constraint firstItem="2Y3-jz-gD1" firstAttribute="top" secondItem="QSd-Eg-ROp" secondAttribute="bottom" constant="7.5" id="lJR-rJ-ESR"/>
-                            <constraint firstItem="2Y3-jz-gD1" firstAttribute="centerX" secondItem="QSd-Eg-ROp" secondAttribute="centerX" id="lef-ey-Fuv"/>
                             <constraint firstItem="Q7C-CP-8YQ" firstAttribute="leading" secondItem="rSa-Bi-vfx" secondAttribute="leading" constant="20" id="t3P-XF-i1n"/>
                             <constraint firstItem="rSa-Bi-vfx" firstAttribute="bottom" secondItem="mFH-a7-Rap" secondAttribute="bottom" constant="60" id="yr0-bw-MgR"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="메뉴" image="menucard.fill" catalog="system" id="vyy-oE-5hT"/>
                     <navigationItem key="navigationItem" id="0XL-2S-hCF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qYw-bD-zuQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="758" y="82"/>
+        </scene>
+        <!--검색-->
+        <scene sceneID="0oJ-BN-7fT">
+            <objects>
+                <viewController id="423-IK-dVu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rg5-fI-8KR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="8wJ-zN-Odd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="검색" image="magnifyingglass" catalog="system" id="0sD-ce-dts"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kVt-zP-1LM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="758" y="753"/>
+        </scene>
+        <!--찜-->
+        <scene sceneID="sLz-Ts-mKd">
+            <objects>
+                <viewController id="T3M-JN-qSU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vdB-zm-2dI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="338-Gm-r6t"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="찜" image="heart.fill" catalog="system" id="HIq-JW-ous"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TuA-Pv-Vsr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="751" y="1386"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="e56-qs-b74">
+            <objects>
+                <tabBarController id="yQt-l6-BjX" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="V6Z-tr-UKi"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Lm4-5h-Im6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="gp7-uG-gkQ" kind="relationship" relationship="viewControllers" id="beh-Pk-g9F"/>
+                        <segue destination="423-IK-dVu" kind="relationship" relationship="viewControllers" id="YWI-jK-8mM"/>
+                        <segue destination="T3M-JN-qSU" kind="relationship" relationship="viewControllers" id="I3a-Hb-6fz"/>
+                        <segue destination="r5q-IZ-r1p" kind="relationship" relationship="viewControllers" id="NnL-Bt-SBc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nka-Sn-pNa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="19" y="753"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Z2l-pH-7MY">
@@ -886,7 +920,7 @@
             </objects>
             <point key="canvasLocation" x="1519" y="82"/>
         </scene>
-        <!--My Baemin View Controller-->
+        <!--My배민-->
         <scene sceneID="8P0-3w-X9F">
             <objects>
                 <viewController id="r5q-IZ-r1p" customClass="MyBaeminViewController" customModule="BaeminReplica" customModuleProvider="target" sceneMemberID="viewController">
@@ -898,7 +932,7 @@
                                 <rect key="frame" x="0.0" y="212" width="394" height="149"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="NCa-Sk-Cwj">
-                                <rect key="frame" x="133.5" y="714" width="147.5" height="20.5"/>
+                                <rect key="frame" x="133.5" y="570.5" width="147.5" height="20.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이번 달" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tFh-Bb-MFj">
                                         <rect key="frame" x="0.0" y="0.0" width="48.5" height="20.5"/>
@@ -924,13 +958,14 @@
                         <viewLayoutGuide key="safeArea" id="F2x-PJ-Ufo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="NCa-Sk-Cwj" firstAttribute="centerY" secondItem="F2x-PJ-Ufo" secondAttribute="centerY" constant="130" id="2b1-6q-clh"/>
                             <constraint firstItem="F2x-PJ-Ufo" firstAttribute="trailing" secondItem="RlG-7o-nzz" secondAttribute="trailing" id="PGz-AU-RXG"/>
                             <constraint firstItem="RlG-7o-nzz" firstAttribute="top" secondItem="F2x-PJ-Ufo" secondAttribute="top" id="Y38-XC-Xdf"/>
                             <constraint firstItem="RlG-7o-nzz" firstAttribute="leading" secondItem="F2x-PJ-Ufo" secondAttribute="leading" id="Ybt-Ph-WfF"/>
-                            <constraint firstItem="NCa-Sk-Cwj" firstAttribute="top" secondItem="RlG-7o-nzz" secondAttribute="bottom" constant="10" id="e3u-EZ-N7Q"/>
                             <constraint firstItem="NCa-Sk-Cwj" firstAttribute="centerX" secondItem="RlG-7o-nzz" secondAttribute="centerX" id="szW-OF-CY4"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="My배민" image="happy-face" id="sWG-dA-03x"/>
                     <navigationItem key="navigationItem" id="wRK-iG-4F7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VT8-TA-e9B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -939,7 +974,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="pE9-dY-PJO"/>
+        <segue reference="NnL-Bt-SBc"/>
+        <segue reference="PqD-Dq-w6E"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="baemin1" width="526" height="569"/>
@@ -948,7 +984,10 @@
         <image name="banner02" width="909" height="510"/>
         <image name="bell" width="36" height="36"/>
         <image name="happy-face" width="48" height="48"/>
+        <image name="heart.fill" catalog="system" width="128" height="109"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="menu" width="45" height="45"/>
+        <image name="menucard.fill" catalog="system" width="106" height="128"/>
         <image name="menuothers" width="1123" height="809"/>
         <image name="mono_baedal01" width="112" height="62"/>
         <image name="mono_baedal02" width="69" height="94"/>
